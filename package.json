@@ -1,6 +1,6 @@
 {
   "name": "eip1167",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "license": "MIT",
   "description": "Utilities for working with EIP-1167 clones. (OpenZeppelin implementation https://docs.openzeppelin.com/contracts/4.x/api/proxy#Clones)",
   "source": "src/index.ts",
@@ -11,6 +11,9 @@
     "build": "parcel build",
     "prepack": "parcel build"
   },
+  "files": [
+    "dist/**"
+  ],
   "dependencies": {
     "@ethersproject/address": "^5.7.0",
     "@ethersproject/bytes": "^5.7.0",
